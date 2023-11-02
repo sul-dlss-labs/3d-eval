@@ -1,0 +1,6 @@
+_site
+.yardoc
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
