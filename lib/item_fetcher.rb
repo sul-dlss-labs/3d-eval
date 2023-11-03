@@ -48,8 +48,12 @@ class ItemFetcher
     return if file.file? && !force
 
     File.open(file, 'w') do |write_file|
-      URI.parse(url).open do |read_file|
-        write_file.write(read_file.read)
+      begin
+        URI.parse(url).open do |read_file|
+          write_file.write(read_file.read)
+        end
+      rescue OpenURI::HTTPError => e
+        puts "#{url} #{e}"
       end
     end
   end

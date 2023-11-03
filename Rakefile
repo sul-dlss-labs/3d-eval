@@ -17,3 +17,8 @@ desc 'convert obj files'
 task :convert do
   puts 'convert'
 end
+
+desc 'build JavaScript bundle'
+task :build do
+  system('./node_modules/.bin/webpack')
+end
