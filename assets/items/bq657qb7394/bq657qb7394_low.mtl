@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump bq657qb7394_normal.jpg
+norm bq657qb7394_normal.jpg
+map_Kd bq657qb7394_basecolor.jpg

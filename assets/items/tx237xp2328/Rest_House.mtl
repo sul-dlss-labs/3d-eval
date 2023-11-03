@@ -1,0 +1,27 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Opaque
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.356863
+Ks 0.330000 0.330000 0.330000
+d 0.240000
+map_Kd Opaque.png
+
+newmtl Mudbrick
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.356863
+Ks 0.330000 0.330000 0.330000
+map_Kd Mudbrick.png
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

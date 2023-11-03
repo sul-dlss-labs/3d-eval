@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump jc957dh9590_low_normal.jpg
+norm jc957dh9590_low_normal.jpg
+map_Kd jc957dh9590_low_base.jpg
+Pr 0
+Pm 0.86

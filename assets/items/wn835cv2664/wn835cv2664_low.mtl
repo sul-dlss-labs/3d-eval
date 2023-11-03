@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump wn835cv2664_normal_low.jpg
+norm wn835cv2664_normal_low.jpg
+map_Kd wn835cv2664_basecolor_low.jpg

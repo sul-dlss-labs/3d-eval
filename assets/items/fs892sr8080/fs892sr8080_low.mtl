@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump fs892sr8080_low_normal.jpg
+norm fs892sr8080_low_normal.jpg
+map_Kd fs892sr8080_low_base.jpg
+Pr 0
+Pm 0.86

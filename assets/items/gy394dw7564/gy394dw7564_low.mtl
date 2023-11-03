@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gy394dw7564_normal.jpg
+norm gy394dw7564_normal.jpg
+map_Kd gy394dw7564_basecolor.jpg
+Pr 0
+Pm 0.86

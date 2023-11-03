@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump mb707vv3140_low_normal.jpg
+norm mb707vv3140_low_normal.jpg
+map_Kd mb707vv3140_low_base.jpg
+Pr 0
+Pm 0.86

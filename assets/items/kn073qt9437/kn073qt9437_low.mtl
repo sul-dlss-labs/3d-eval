@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump kn073qt9437_low_normal.jpg
+norm kn073qt9437_low_normal.jpg
+map_Kd kn073qt9437_low_base.jpg
+Pr 0
+Pm 0.86

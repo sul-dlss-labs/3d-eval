@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump qw575rm2321_normal_low.jpg
+norm qw575rm2321_normal_low.jpg
+map_Kd qw575rm2321_basecolor_low.jpg

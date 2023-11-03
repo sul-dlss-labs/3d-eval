@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump vg285jj7523_normal.jpg
+norm vg285jj7523_normal.jpg
+map_Kd vg285jj7523_basecolor.jpg

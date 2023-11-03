@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ny408fm4755_normal.jpg
+norm ny408fm4755_normal.jpg
+map_Kd ny408fm4755_basecolor.jpg
+Pm 0.2
+Pr 0.4

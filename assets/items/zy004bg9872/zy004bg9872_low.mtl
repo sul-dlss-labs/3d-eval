@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zy004bg9872_low_normal.jpg
+norm zy004bg9872_low_normal.jpg
+map_Kd zy004bg9872_low_base.jpg
+Pr 0
+Pm 0.86

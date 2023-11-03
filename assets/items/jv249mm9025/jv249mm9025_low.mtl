@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump jv249mm9025_normal.jpg
+norm jv249mm9025_normal.jpg
+map_Kd jv249mm9025_basecolor.jpg
+Pr 0
+Pm 0.86

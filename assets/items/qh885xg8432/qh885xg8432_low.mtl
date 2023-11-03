@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qh885xg8432_normal.jpg
+norm qh885xg8432_normal.jpg
+map_Kd qh885xg8432_basecolor.jpg
+Pr 0
+Pm 0.86

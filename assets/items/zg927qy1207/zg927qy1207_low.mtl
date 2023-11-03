@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zg927qy1207_normal.jpg
+norm zg927qy1207_normal.jpg
+map_Kd zg927qy1207_basecolor.jpg
+Pr 0
+Pm 0.86

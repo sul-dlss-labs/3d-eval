@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump dm602jp0246_normal.jpg
+norm dm602jp0246_normal.jpg
+map_Kd dm602jp0246_basecolor.jpg
+Pm 0.2
+Pr 0.4

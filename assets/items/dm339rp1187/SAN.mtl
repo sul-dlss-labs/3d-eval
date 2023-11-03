@@ -1,0 +1,51 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Material02
+Ka 0.000000 0.000000 0.000000
+Kd 0.854902 0.835294 0.772549
+Ks 0.330000 0.330000 0.330000
+map_Kd Material02.jpg
+
+newmtl Mudbrick1
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.352941
+Ks 0.330000 0.330000 0.330000
+map_Kd Mudbrick1.jpg
+
+newmtl unfinished_limestone
+Ka 0.000000 0.000000 0.000000
+Kd 0.682353 0.580392 0.474510
+Ks 0.330000 0.330000 0.330000
+map_Kd unfinished_limestone.jpg
+
+newmtl Mudbrick4
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.352941
+Ks 0.330000 0.330000 0.330000
+map_Kd Mudbrick4.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Mudbrick4_trans
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.352941
+Ks 0.330000 0.330000 0.330000
+d 0.800000
+map_Kd Mudbrick4_trans.jpg
+
+newmtl mud_paving
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.482353 0.400000
+Ks 0.330000 0.330000 0.330000
+map_Kd mud_paving.png
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

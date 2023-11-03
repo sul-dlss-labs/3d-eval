@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump md951pn1286_normal.jpg
+norm md951pn1286_normal.jpg
+map_Kd md951pn1286_basecolor.jpg

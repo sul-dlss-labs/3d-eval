@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump cr303yt7341_normal.jpg
+norm cr303yt7341_normal.jpg
+map_Kd cr303yt7341_basecolor.jpg

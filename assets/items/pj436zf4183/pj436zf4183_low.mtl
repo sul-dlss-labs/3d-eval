@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump pj436zf4183_normal.jpg
+norm pj436zf4183_normal.jpg
+map_Kd pj436zf4183_basecolor.jpg
+Pm 0.2
+Pr 0.4

@@ -1,0 +1,38 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl White_Limestone
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 0.952941 0.921569
+Ks 0.330000 0.330000 0.330000
+map_Kd White_Limestone.jpg
+
+newmtl Limestone
+Ka 0.000000 0.000000 0.000000
+Kd 0.952941 0.945098 0.925490
+Ks 0.330000 0.330000 0.330000
+map_Kd Limestone.jpg
+
+newmtl Limestone_Big
+Ka 0.000000 0.000000 0.000000
+Kd 0.968627 0.956863 0.925490
+Ks 0.330000 0.330000 0.330000
+map_Kd Limestone_Big.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Red_Granite
+Ka 0.000000 0.000000 0.000000
+Kd 0.572549 0.541176 0.572549
+Ks 0.330000 0.330000 0.330000
+map_Kd Red_Granite.jpg
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

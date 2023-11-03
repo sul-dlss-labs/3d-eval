@@ -1,0 +1,51 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl white_mudplaster
+Ka 0.000000 0.000000 0.000000
+Kd 0.854902 0.835294 0.772549
+Ks 0.330000 0.330000 0.330000
+d 0.700000
+map_Kd white_mudplaster.jpg
+
+newmtl white_limestone1
+Ka 0.000000 0.000000 0.000000
+Kd 0.854902 0.835294 0.772549
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limestone1.jpg
+
+newmtl floor_slabs2
+Ka 0.000000 0.000000 0.000000
+Kd 0.678431 0.682353 0.670588
+Ks 0.330000 0.330000 0.330000
+map_Kd floor_slabs2.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl pink_granite2
+Ka 0.000000 0.000000 0.000000
+Kd 0.752941 0.701961 0.603922
+Ks 0.330000 0.330000 0.330000
+map_Kd pink_granite2.jpg
+
+newmtl white_limeston_block
+Ka 0.000000 0.000000 0.000000
+Kd 0.968627 0.956863 0.909804
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limeston_block.jpg
+
+newmtl mudplaster
+Ka 0.000000 0.000000 0.000000
+Kd 0.796078 0.658824 0.505882
+Ks 0.330000 0.330000 0.330000
+map_Kd mudplaster.jpg
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

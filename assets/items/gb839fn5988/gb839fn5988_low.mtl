@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gb839fn5988_normal.jpg
+norm gb839fn5988_normal.jpg
+map_Kd gb839fn5988_basecolor.jpg
+Pm 0.2
+Pr 0.4

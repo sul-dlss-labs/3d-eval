@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump hr218sf6047_normal.jpg
+norm hr218sf6047_normal.jpg
+map_Kd hr218sf6047_basecolor.jpg
+Pm 0.2
+Pr 0.4

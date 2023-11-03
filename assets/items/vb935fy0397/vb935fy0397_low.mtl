@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vb935fy0397_low_normal.jpg
+norm vb935fy0397_low_normal.jpg
+map_Kd vb935fy0397_low_base.jpg
+Pr 0
+Pm 0.86

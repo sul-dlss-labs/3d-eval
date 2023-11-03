@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump qf794pv6287_normal_low.jpg
+norm qf794pv6287_normal_low.jpg
+map_Kd qf794pv6287_basecolor_low.jpg

@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zq575vr8961_low_normal.jpg
+norm zq575vr8961_low_normal.jpg
+map_Kd zq575vr8961_low_base.jpg
+Pr 0
+Pm 0.86

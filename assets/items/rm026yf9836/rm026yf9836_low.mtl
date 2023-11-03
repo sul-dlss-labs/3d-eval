@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump rm026yf9836_low_normal.jpg
+norm rm026yf9836_low_normal.jpg
+map_Kd rm026yf9836_low_base.jpg
+Pr 0
+Pm 0.86

@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump yf519ht4235_normal.jpg
+norm yf519ht4235_normal.jpg
+map_Kd yf519ht4235_basecolor.jpg
+Pr 0
+Pm 0.86

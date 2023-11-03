@@ -1,0 +1,26 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl white_limestone_block
+Ka 0.000000 0.000000 0.000000
+Kd 0.968627 0.960784 0.937255
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limestone_block.tif
+
+newmtl Black_granite
+Ka 0.000000 0.000000 0.000000
+Kd 0.129412 0.156863 0.168627
+Ks 0.330000 0.330000 0.330000
+map_Kd Black_granite.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Niankhwadjet_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd Niankhwadjet_01.png

@@ -1,0 +1,55 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl dark_black_granite
+Ka 0.000000 0.000000 0.000000
+Kd 0.129412 0.156863 0.168627
+Ks 0.330000 0.330000 0.330000
+map_Kd dark_black_granite.jpg
+
+newmtl white_limestone1_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.850980 0.835294 0.768627
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limestone1_1.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Mudbrick2
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.356863
+Ks 0.330000 0.330000 0.330000
+map_Kd Mudbrick2.png
+
+newmtl Mudbrick4
+Ka 0.000000 0.000000 0.000000
+Kd 0.552941 0.462745 0.352941
+Ks 0.330000 0.330000 0.330000
+map_Kd Mudbrick4.jpg
+
+newmtl white_limeston_block_big_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.984314 0.976471 0.952941
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limeston_block_big_1.jpg
+
+newmtl white_limeston_block_big_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.984314 0.976471 0.952941
+Ks 0.330000 0.330000 0.330000
+map_Kd white_limeston_block_big_2.jpg
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 0.200000 0.200000 0.200000
+Ks 0.330000 0.330000 0.330000
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

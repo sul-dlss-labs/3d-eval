@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump pr756nc2659_low_normal.jpg
+norm pr756nc2659_low_normal.jpg
+map_Kd pr756nc2659_low_base.jpg
+Pr 0
+Pm 0.86

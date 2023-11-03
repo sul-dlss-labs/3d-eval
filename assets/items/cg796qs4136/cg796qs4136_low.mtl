@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump cg796qs4136_normal.jpg
+norm cg796qs4136_normal.jpg
+map_Kd cg796qs4136_basecolor.jpg

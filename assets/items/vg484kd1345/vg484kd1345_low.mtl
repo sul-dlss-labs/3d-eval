@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vg484kd1345_low_normal.jpg
+norm vg484kd1345_low_normal.jpg
+map_Kd vg484kd1345_low_base.jpg
+Pr 0
+Pm 0.86

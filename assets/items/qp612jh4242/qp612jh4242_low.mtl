@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qp612jh4242_low_normal.jpg
+norm qp612jh4242_low_normal.jpg
+map_Kd qp612jh4242_low_base.jpg
+Pr 0
+Pm 0.86

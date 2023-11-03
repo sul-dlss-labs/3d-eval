@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump fw014fw1906_normal.jpg
+norm fw014fw1906_normal.jpg
+map_Kd fw014fw1906_basecolor.jpg

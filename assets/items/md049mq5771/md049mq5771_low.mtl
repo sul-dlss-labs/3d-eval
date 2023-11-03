@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump md049mq5771_normal_low.jpg
+norm md049mq5771_normal_low.jpg
+map_Kd md049mq5771_basecolor_low.jpg

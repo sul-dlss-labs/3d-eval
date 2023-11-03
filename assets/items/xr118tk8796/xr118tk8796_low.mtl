@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump xr118tk8796_low_normal.jpg
+norm xr118tk8796_low_normal.jpg
+map_Kd xr118tk8796_low_base.jpg
+Pr 0
+Pm 0.86

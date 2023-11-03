@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump mk127sp5001_normal.jpg
+norm mk127sp5001_normal.jpg
+map_Kd mk127sp5001_basecolor.jpg
+Pm 0.2
+Pr 0.4

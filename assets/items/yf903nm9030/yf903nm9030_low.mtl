@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump yf903nm9030_low_normal.jpg
+norm yf903nm9030_low_normal.jpg
+map_Kd yf903nm9030_low_base.jpg
+Pr 0
+Pm 0.86

@@ -1,0 +1,39 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl White_Paint
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd White_Paint.jpg
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.956863 0.850980 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd _2.jpg
+
+newmtl _3
+Ka 0.000000 0.000000 0.000000
+Kd 0.658824 0.003922 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd _3.jpg
+
+newmtl Wood_Cherry_Original
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.337255 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd Wood_Cherry_Original.jpg
+
+newmtl _5
+Ka 0.000000 0.000000 0.000000
+Kd 0.384314 0.537255 0.380392
+Ks 0.330000 0.330000 0.330000
+map_Kd _5.jpg
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

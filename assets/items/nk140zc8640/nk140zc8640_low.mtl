@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump nk140zc8640_normal.jpg
+norm nk140zc8640_normal.jpg
+map_Kd nk140zc8640_basecolor.jpg

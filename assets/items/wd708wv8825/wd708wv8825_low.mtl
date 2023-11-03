@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump wd708wv8825_normal.jpg
+norm wd708wv8825_normal.jpg
+map_Kd wd708wv8825_basecolor.jpg
+Pm 0.2
+Pr 0.4
