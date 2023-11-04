@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump yp585rj4935_normal.jpg
+norm yp585rj4935_normal.jpg
+map_Kd yp585rj4935_basecolor.jpg
+Pm 0.2
+Pr 0.4

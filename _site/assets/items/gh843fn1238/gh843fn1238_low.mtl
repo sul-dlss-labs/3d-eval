@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gh843fn1238_low_normal.jpg
+norm gh843fn1238_low_normal.jpg
+map_Kd gh843fn1238_low_base.jpg
+Pr 0
+Pm 0.86

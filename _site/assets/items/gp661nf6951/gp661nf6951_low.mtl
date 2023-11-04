@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gp661nf6951_low_normal.jpg
+norm gp661nf6951_low_normal.jpg
+map_Kd gp661nf6951_low_base.jpg
+Pr 0
+Pm 0.86

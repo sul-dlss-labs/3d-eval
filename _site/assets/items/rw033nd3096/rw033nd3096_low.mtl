@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump rw033nd3096_low_normal.jpg
+norm rw033nd3096_low_normal.jpg
+map_Kd rw033nd3096_low_base.jpg
+Pr 0
+Pm 0.86

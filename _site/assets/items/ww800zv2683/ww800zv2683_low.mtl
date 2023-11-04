@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ww800zv2683_normal.jpg
+norm ww800zv2683_normal.jpg
+map_Kd ww800zv2683_basecolor.jpg
+Pm 0.2
+Pr 0.4

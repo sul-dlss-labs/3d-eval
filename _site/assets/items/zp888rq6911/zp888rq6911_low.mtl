@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zp888rq6911_low_normal.jpg
+norm zp888rq6911_low_normal.jpg
+map_Kd zp888rq6911_low_base.jpg
+Pr 0
+Pm 0.86

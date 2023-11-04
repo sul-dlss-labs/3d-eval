@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vy595ft3039_low_normal.jpg
+norm vy595ft3039_low_normal.jpg
+map_Kd vy595ft3039_low_base.jpg
+Pr 0
+Pm 0.86

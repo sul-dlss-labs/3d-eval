@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vz190tc8109_low_normal.jpg
+norm vz190tc8109_low_normal.jpg
+map_Kd vz190tc8109_low_base.jpg
+Pr 0
+Pm 0.86

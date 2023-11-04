@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump yv690gn5376_normal_low.jpg
+norm yv690gn5376_normal_low.jpg
+map_Kd yv690gn5376_basecolor_low.jpg

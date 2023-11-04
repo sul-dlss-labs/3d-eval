@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ns679gq7006_low_normal.jpg
+norm ns679gq7006_low_normal.jpg
+map_Kd ns679gq7006_low_base.jpg
+Pr 0
+Pm 0.86

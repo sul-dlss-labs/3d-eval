@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gh476br1936_normal.jpg
+norm gh476br1936_normal.jpg
+map_Kd gh476br1936_basecolor.jpg
+Pm 0.2
+Pr 0.4

@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zd693dd2396_normal.jpg
+norm zd693dd2396_normal.jpg
+map_Kd zd693dd2396_basecolor.jpg
+Pm 0.2
+Pr 0.4

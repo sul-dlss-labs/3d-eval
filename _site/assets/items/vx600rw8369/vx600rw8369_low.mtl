@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vx600rw8369_low_normal.jpg
+norm vx600rw8369_low_normal.jpg
+map_Kd vx600rw8369_low_base.jpg
+Pr 0
+Pm 0.86

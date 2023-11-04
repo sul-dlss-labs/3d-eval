@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qg423xw3887_normal.jpg
+norm qg423xw3887_normal.jpg
+map_Kd qg423xw3887_basecolor.jpg
+Pr 0
+Pm 0.86

@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump sj957jc8666_low_normal.jpg
+norm sj957jc8666_low_normal.jpg
+map_Kd sj957jc8666_low_base.jpg
+Pr 0
+Pm 0.86

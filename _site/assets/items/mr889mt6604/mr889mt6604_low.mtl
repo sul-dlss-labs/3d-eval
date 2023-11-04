@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump mr889mt6604_normal.jpg
+norm mr889mt6604_normal.jpg
+map_Kd mr889mt6604_basecolor.jpg
+Pm 0.2
+Pr 0.4

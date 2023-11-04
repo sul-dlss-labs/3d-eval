@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump cn362nj0131_normal.jpg
+norm cn362nj0131_normal.jpg
+map_Kd cn362nj0131_basecolor.jpg
+Pm 0.2
+Pr 0.4

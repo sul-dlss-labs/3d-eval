@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump rm700mt9314_low_normal.jpg
+norm rm700mt9314_low_normal.jpg
+map_Kd rm700mt9314_low_base.jpg
+Pr 0
+Pm 0.86

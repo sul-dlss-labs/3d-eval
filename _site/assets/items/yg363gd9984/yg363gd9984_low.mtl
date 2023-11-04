@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump yg363gd9984_low_normal.jpg
+norm yg363gd9984_low_normal.jpg
+map_Kd yg363gd9984_low_base.jpg
+Pr 0
+Pm 0.86

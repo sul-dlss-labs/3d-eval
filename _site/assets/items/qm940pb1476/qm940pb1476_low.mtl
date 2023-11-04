@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qm940pb1476_low_normal.jpg
+norm qm940pb1476_low_normal.jpg
+map_Kd qm940pb1476_low_base.jpg
+Pr 0
+Pm 0.86

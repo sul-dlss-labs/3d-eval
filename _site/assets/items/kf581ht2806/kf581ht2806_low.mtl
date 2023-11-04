@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump kf581ht2806_low_normal.jpg
+norm kf581ht2806_low_normal.jpg
+map_Kd kf581ht2806_low_base.jpg
+Pr 0
+Pm 0.86

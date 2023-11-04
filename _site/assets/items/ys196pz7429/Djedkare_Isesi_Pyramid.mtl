@@ -1,0 +1,25 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl White_limestone_block
+Ka 0.000000 0.000000 0.000000
+Kd 0.952941 0.925490 0.862745
+Ks 0.330000 0.330000 0.330000
+map_Kd White_limestone_block.jpg
+
+newmtl _4
+Ka 0.000000 0.000000 0.000000
+Kd 0.905882 0.878431 0.827451
+Ks 0.330000 0.330000 0.330000
+
+newmtl M_0135_DarkGray
+Ka 0.000000 0.000000 0.000000
+Kd 0.317647 0.317647 0.317647
+Ks 0.330000 0.330000 0.330000
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

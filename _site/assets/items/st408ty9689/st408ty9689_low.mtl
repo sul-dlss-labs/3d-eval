@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump st408ty9689_normal.jpg
+norm st408ty9689_normal.jpg
+map_Kd st408ty9689_basecolor.jpg

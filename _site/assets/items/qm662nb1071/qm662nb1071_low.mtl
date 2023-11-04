@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qm662nb1071_low_normal.jpg
+norm qm662nb1071_low_normal.jpg
+map_Kd qm662nb1071_low_base.jpg
+Pr 0
+Pm 0.86

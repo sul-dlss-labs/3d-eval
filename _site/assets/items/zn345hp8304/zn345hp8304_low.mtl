@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zn345hp8304_low_normal.jpg
+norm zn345hp8304_low_normal.jpg
+map_Kd zn345hp8304_low_base.jpg
+Pr 0
+Pm 0.86

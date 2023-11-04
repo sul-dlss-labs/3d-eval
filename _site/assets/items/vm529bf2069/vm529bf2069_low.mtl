@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vm529bf2069_normal.jpg
+norm vm529bf2069_normal.jpg
+map_Kd vm529bf2069_basecolor.jpg
+Pm 0.2
+Pr 0.4

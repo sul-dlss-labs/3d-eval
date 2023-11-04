@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ms675tb5307_normal.jpg
+norm ms675tb5307_normal.jpg
+map_Kd ms675tb5307_basecolor.jpg
+Pr 0
+Pm 0.86

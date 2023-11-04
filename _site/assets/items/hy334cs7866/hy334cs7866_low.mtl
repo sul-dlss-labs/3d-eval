@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump hy334cs7866_normal.jpg
+norm hy334cs7866_normal.jpg
+map_Kd hy334cs7866_basecolor.jpg
+Pr 0
+Pm 0.86

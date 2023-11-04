@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump gn093sk1321_low_normal.jpg
+norm gn093sk1321_low_normal.jpg
+map_Kd gn093sk1321_low_base.jpg
+Pr 0
+Pm 0.86

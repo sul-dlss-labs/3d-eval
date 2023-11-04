@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump pf224qt8732_normal.jpg
+norm pf224qt8732_normal.jpg
+map_Kd pf224qt8732_basecolor.jpg
+Pm 0.2
+Pr 0.4

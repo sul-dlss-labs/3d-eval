@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump tv716wv3552_normal.jpg
+norm tv716wv3552_normal.jpg
+map_Kd tv716wv3552_basecolor.jpg
+Pm 0.2
+Pr 0.4

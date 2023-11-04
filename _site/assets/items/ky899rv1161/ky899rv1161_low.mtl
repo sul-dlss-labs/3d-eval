@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ky899rv1161_low_normal.jpg
+norm ky899rv1161_low_normal.jpg
+map_Kd ky899rv1161_low_base.jpg
+Pr 0
+Pm 0.86

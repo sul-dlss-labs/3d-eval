@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vn872jz6566_normal.jpg
+norm vn872jz6566_normal.jpg
+map_Kd vn872jz6566_basecolor.jpg
+Pm 0.2
+Pr 0.4

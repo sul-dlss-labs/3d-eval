@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump dx131fq2748_normal.jpg
+norm dx131fq2748_normal.jpg
+map_Kd dx131fq2748_basecolor.jpg
+Pm 0.2
+Pr 0.4

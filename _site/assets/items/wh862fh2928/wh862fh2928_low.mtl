@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump wh862fh2928_normal.jpg
+norm wh862fh2928_normal.jpg
+map_Kd wh862fh2928_basecolor.jpg

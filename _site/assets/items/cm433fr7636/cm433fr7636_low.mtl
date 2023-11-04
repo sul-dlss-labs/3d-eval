@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump cm433fr7636_normal.jpg
+norm cm433fr7636_normal.jpg
+map_Kd cm433fr7636_basecolor.jpg

@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump zf510bh5519_low_normal.jpg
+norm zf510bh5519_low_normal.jpg
+map_Kd zf510bh5519_low_base.jpg
+Pr 0
+Pm 0.86

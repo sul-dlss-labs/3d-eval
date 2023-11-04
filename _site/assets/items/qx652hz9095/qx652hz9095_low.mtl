@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qx652hz9095_low_normal.jpg
+norm qx652hz9095_low_normal.jpg
+map_Kd qx652hz9095_low_base.jpg
+Pr 0
+Pm 0.86

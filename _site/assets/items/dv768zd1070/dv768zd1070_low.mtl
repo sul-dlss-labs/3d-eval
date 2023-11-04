@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump dv768zd1070_normal.jpg
+norm dv768zd1070_normal.jpg
+map_Kd dv768zd1070_basecolor.jpg
+Pm 0.2
+Pr 0.4

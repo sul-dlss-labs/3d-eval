@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump qt635cj5288_normal.jpg
+norm qt635cj5288_normal.jpg
+map_Kd qt635cj5288_basecolor.jpg
+Pr 0
+Pm 0.86

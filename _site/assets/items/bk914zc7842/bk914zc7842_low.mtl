@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump bk914zc7842_normal_low.jpg
+norm bk914zc7842_normal_low.jpg
+map_Kd bk914zc7842_basecolor_low.jpg

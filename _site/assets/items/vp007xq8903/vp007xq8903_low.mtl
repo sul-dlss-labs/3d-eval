@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vp007xq8903_normal.jpg
+norm vp007xq8903_normal.jpg
+map_Kd vp007xq8903_basecolor.jpg
+Pm 0.2
+Pr 0.4

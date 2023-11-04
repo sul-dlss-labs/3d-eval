@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ph973nw9178_normal.jpg
+norm ph973nw9178_normal.jpg
+map_Kd ph973nw9178_basecolor.jpg
+Pm 0.2
+Pr 0.4

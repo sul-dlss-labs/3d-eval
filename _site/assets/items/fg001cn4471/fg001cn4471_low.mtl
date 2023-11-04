@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump fg001cn4471_normal.jpg
+norm fg001cn4471_normal.jpg
+map_Kd fg001cn4471_basecolor.jpg
+Pm 0.2
+Pr 0.4

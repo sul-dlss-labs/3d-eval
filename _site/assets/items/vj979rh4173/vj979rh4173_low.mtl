@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vj979rh4173_normal.jpg
+norm vj979rh4173_normal.jpg
+map_Kd vj979rh4173_basecolor.jpg
+Pm 0.2
+Pr 0.4

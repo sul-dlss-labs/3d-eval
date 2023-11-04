@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump kf302ss8294_low_normal.jpg
+norm kf302ss8294_low_normal.jpg
+map_Kd kf302ss8294_low_base.jpg
+Pr 0
+Pm 0.86

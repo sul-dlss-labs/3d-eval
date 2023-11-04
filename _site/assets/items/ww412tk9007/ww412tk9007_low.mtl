@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ww412tk9007_normal.jpg
+norm ww412tk9007_normal.jpg
+map_Kd ww412tk9007_basecolor.jpg
+Pr 0
+Pm 0.86

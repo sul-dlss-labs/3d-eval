@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump cy849sz3750_normal.jpg
+norm cy849sz3750_normal.jpg
+map_Kd cy849sz3750_basecolor.jpg

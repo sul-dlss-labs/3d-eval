@@ -1,0 +1,21 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Rough_blocks
+Ka 0.000000 0.000000 0.000000
+Kd 0.788235 0.749020 0.709804
+Ks 0.330000 0.330000 0.330000
+map_Kd Rough_blocks.jpg
+
+newmtl Groundcover_Sand_Smooth
+Ka 0.000000 0.000000 0.000000
+Kd 0.890196 0.847059 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd Groundcover_Sand_Smooth.jpg
+
+newmtl HesyRa3
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.000000 0.000000 0.000000
+map_Kd HesyRa3.png

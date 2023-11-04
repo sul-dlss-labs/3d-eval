@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump sz320st8645_normal.jpg
+norm sz320st8645_normal.jpg
+map_Kd sz320st8645_basecolor.jpg
+Pm 0.2
+Pr 0.4

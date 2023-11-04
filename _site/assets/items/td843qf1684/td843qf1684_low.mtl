@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump td843qf1684_normal.jpg
+norm td843qf1684_normal.jpg
+map_Kd td843qf1684_basecolor.jpg
+Pm 0.2
+Pr 0.4

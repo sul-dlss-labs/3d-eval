@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump ts310pg5119_normal.jpg
+norm ts310pg5119_normal.jpg
+map_Kd ts310pg5119_basecolor.jpg
+Pm 0.2
+Pr 0.4

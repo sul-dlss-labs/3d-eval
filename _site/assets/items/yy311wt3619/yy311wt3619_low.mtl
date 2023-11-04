@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump yy311wt3619_low_normal.jpg
+norm yy311wt3619_low_normal.jpg
+map_Kd yy311wt3619_low_base.jpg
+Pr 0
+Pm 0.86

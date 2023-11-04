@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump mq023mf0755_normal.jpg
+norm mq023mf0755_normal.jpg
+map_Kd mq023mf0755_basecolor.jpg
+Pr 0
+Pm 0.86

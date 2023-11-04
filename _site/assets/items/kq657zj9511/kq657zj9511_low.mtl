@@ -1,0 +1,4 @@
+newmtl material_0
+map_bump kq657zj9511_normal.jpg
+norm kq657zj9511_normal.jpg
+map_Kd kq657zj9511_basecolor.jpg
