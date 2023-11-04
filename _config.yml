@@ -3,6 +3,7 @@ email: ehs@pobox.com
 description: A demo site to evaluate conversion and rendering of 3D obj files held in the Stanford Digital Repository.
 baseurl: "/3d-eval"
 url: "http://sul-dlss-labs.github.io/3d-eval/"
+destination: docs
 exclude:
   - "lib"
   - "package.json"

@@ -6,27 +6,35 @@ This is a static site to help compare two approaches to viewing 3d object files,
 
 A report for all public 3D objects was run in Argo in October, 2023 and the resulting CSV was saved as `_data/items.csv`.  To fetch all the files for these objects using the published metadata you can run:
 
-```
+```shell
 $ rake fetch
 ```
 
 In order to convert the files from OBJ to GLB (binary GLTF) you can run:
 
-```
+```shell
 $ rake convert
 ```
 
 Finally if you want to look at the files locally you can:
 
-```
+```shell
 $ jekyll serve
 ```
 
 and open your browser at http://localhost:4000/3d-eval/
 
+## Publish
+
+```shell
+$ jekyll build
+$ git commit -a -m "latest content"
+$ git push
+```
+
+Then view the published site at http://sul-dlss-labs.github.io/3d-eval/
 
 [OBJ]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
 [GLTF]: https://en.wikipedia.org/wiki/GlTF
 [virtex3d]: https://github.com/edsilv/virtex
 [model-viewer]: https://modelviewer.dev/
-
