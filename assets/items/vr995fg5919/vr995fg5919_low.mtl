@@ -1,0 +1,6 @@
+newmtl material_0
+map_bump vr995fg5919_normal.jpg
+norm vr995fg5919_normal.jpg
+map_Kd vr995fg5919_basecolor.jpg
+Pm 0.2
+Pr 0.4
