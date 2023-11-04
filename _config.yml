@@ -4,8 +4,14 @@ description: A demo site to evaluate conversion and rendering of 3D obj files he
 baseurl: "/3d-eval"
 url: "http://sul-dlss-labs.github.io/3d-eval/"
 exclude:
-  - lib
-  - Rakefile
+  - "lib"
+  - "package.json"
+  - "Rakefile"
+  - "webpack*"
+  - "yarn*"
+  - "*.log"
+  - "*.zip"
+  - "*.tar"
 plugins:
   - jekyll-datapage-generator
 page_gen:

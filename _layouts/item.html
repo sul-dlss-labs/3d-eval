@@ -1,15 +1,20 @@
 ---
 layout: default
-javascript:
-- virtex_viewer.bundle.js
 ---
 
-<section id="summary">
-{{ page.title }}<br>
-<a href="https://purl.stanford.edu/{{ page.druid }}"><button>PURL</button></a>
-<a href="https://argo.stanford.edu/view/druid:{{ page.druid }}"><button>Argo</button></a>
-<a href="{{ page.druid | obj_url }}"><button>OBJ</button></a>
-</section>
+<script type="module" src="{{ "assets/js/virtex_viewer.bundle.js" | relative_url }}"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.3.0/dist/model-viewer.min.js"></script>
 
-<div id="virtex-3d-viewer" data-file="{{ page.druid | obj_url }}">
-</div>
+<section id="summary">
+  <h2>{{ page.title }}<br></h2>
+  <a href="https://purl.stanford.edu/{{ page.druid }}"><button>PURL</button></a>
+  <a href="https://argo.stanford.edu/view/druid:{{ page.druid }}"><button>Argo</button></a>
+  <a href="{{ page.druid | obj_url }}"><button>OBJ</button></a>
+  <a href="{{ page.druid | glb_url }}"><button>GLB</button></a>
+</section>
+<section id="viewers">
+  <div id="virtex-3d-viewer" data-file="{{ page.druid | obj_url }}"></div>
+  <div id="model-viewer">
+    <model-viewer auto-rotate camera-controls exposure="1.5" src="{{ page.druid | glb_url }}" ar-modes="webxr scene-viewer quick-look">
+  </div>
+</section>

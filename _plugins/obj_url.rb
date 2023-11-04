@@ -1,15 +1,19 @@
 BASE_URL = Jekyll.configuration({})['baseurl']
 
-module ViewerUrl
+module ObjectUrls 
   def obj_url(druid)
-    obj_path = "assets/items/#{druid}/#{druid}_low.obj"
-    return "#{BASE_URL}/#{obj_path}" if File.exist?(obj_path)
+    pick_file(druid, /\.obj$/)
+  end
 
-    obj_path = "assets/items/#{druid}/#{druid}.obj"
-    return "#{BASE_URL}/#{obj_path}" if File.exist?(obj_path)
+  def glb_url(druid)
+    pick_file(druid, /\.glb$/)
+  end
 
-    ''
+  def pick_file(druid, pattern)
+    obj_dir = "assets/items/#{druid}"
+    obj_path = Dir.entries(obj_dir).find { |f| f =~ pattern }
+    "#{BASE_URL}/#{obj_dir}/#{obj_path}"
   end
 end
 
-Liquid::Template.register_filter(ViewerUrl)
+Liquid::Template.register_filter(ObjectUrls)

@@ -1,36 +1,32 @@
 # 3d-eval
 
-## Missing
+This is a static site to help compare two approaches to viewing 3d object files, one using [OBJ] files with [virtex3D] and the other using [GLTF] files created from the OBJ files and viewed in Google's [model-viewer]. The purpose for doing this evaluation is to see if we can stop using virtex3d since it has been updated in 5 years, and is no longer supported.
 
-When retrieving 3D objects the following druids were found to be missing files on Stacks, and have been excluded until that is fixed (see https://github.com/sul-dlss/argo/issues/4261):
+## Set Up
 
-- cw713nf4297
-- dx131fq2748
-- hj807bj3315
-- hv910hq2054
-- kn053vd9828
-- kw931zk7194
-- mj575mr0028
-- mk604sq8055
-- mr889mt6604
-- ng599cp8067
-- nn143mb2991
-- nr501pr5854
-- pf224qt8732
-- qg865md6137
-- qs187qh6138
-- qw462sq8382
-- rm209dn1639
-- ry623qd1528
-- sx729zw3968
-- tv716wv3552
-- tz363tx2275
-- vj979rh4173
-- vr995fg5919
-- vt819fk1397
-- wy419wt0225
-- xr923qq8878
-- xs224nv8477
-- yn696tc5228
-- zs853gr1088
- 
+A report for all public 3D objects was run in Argo in October, 2023 and the resulting CSV was saved as `_data/items.csv`.  To fetch all the files for these objects using the published metadata you can run:
+
+```
+$ rake fetch
+```
+
+In order to convert the files from OBJ to GLB (binary GLTF) you can run:
+
+```
+$ rake convert
+```
+
+Finally if you want to look at the files locally you can:
+
+```
+$ jekyll serve
+```
+
+and open your browser at http://localhost:4000/3d-eval/
+
+
+[OBJ]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
+[GLTF]: https://en.wikipedia.org/wiki/GlTF
+[virtex3d]: https://github.com/edsilv/virtex
+[model-viewer]: https://modelviewer.dev/
+
