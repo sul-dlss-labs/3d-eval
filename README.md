@@ -1,6 +1,8 @@
 # 3d-eval
 
-This is a static site to help compare two approaches to viewing 3d object files, one using [OBJ] files with [virtex3D] and the other using [GLTF] files created from the OBJ files and viewed in Google's [model-viewer]. The purpose for doing this evaluation is to see if we can stop using virtex3d since it has been updated in 5 years, and is no longer supported.
+This is a static site to help compare two approaches to viewing 3d object files, one using [OBJ] files with [virtex3D] and the other using [GLTF] files created from the OBJ files and viewed in Google's [model-viewer]. The purpose for doing this evaluation is to see if we can stop using virtex3d since it hasn't been updated in 5 years, and is no longer supported.
+
+The static site is served from GitHub Pages at: https://sul-dlss-labs.github.io/3d-eval/
 
 ## Set Up
 
