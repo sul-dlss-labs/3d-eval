@@ -3,9 +3,12 @@
   <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "css/style.css" | relative_url }}">
+    {% for js_file in page.javascript %}
+    <script type="module" src="{{ site.baseurl }}/assets/js/{{ js_file }}"></script>
+    {% endfor %}
   </head>
   <body>
-    <h1>3D Object Evaluations</h1>
+    <h1>3D Object Evaluation</h1>
     {{ content }}
   </body>
 </html>

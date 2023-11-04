@@ -12,5 +12,15 @@ table .size, table .files {
   min-width: 50px;
 }
 
+#virtex-3d-viewer {
+  height: calc(100vh - 200px); 
+  width: 40%;
+}
 
+#summary {
+  margin-bottom: 30px;
+}
 
+button {
+  cursor: pointer;
+}

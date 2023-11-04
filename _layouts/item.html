@@ -1,7 +1,15 @@
 ---
 layout: default
+javascript:
+- virtex_viewer.bundle.js
 ---
 
-<h2>{{ page.title }}</h2>
+<section id="summary">
+{{ page.title }}<br>
+<a href="https://purl.stanford.edu/{{ page.druid }}"><button>PURL</button></a>
+<a href="https://argo.stanford.edu/view/druid:{{ page.druid }}"><button>Argo</button></a>
+<a href="{{ page.druid | obj_url }}"><button>OBJ</button></a>
+</section>
 
-<a href="{{ page.druid | obj_url }}">{{ page.druid }}.obj</a>
+<div id="virtex-3d-viewer" data-file="{{ page.druid | obj_url }}">
+</div>
