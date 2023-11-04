@@ -7,3 +7,4 @@ vendor
 node_modules
 assets/**/*.zip
 assets/**/*.tar
+*.log
