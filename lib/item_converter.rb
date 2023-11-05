@@ -34,6 +34,7 @@ class ItemConverter
     stdout, _stderr, status = Open3.capture3(cmd)
     @logger.error("#{@druid} gltf conversion error: #{stdout.strip}") unless status.exitstatus.zero?
 
+    # TODO: this doesn't work yet
     # if stdout =~ /Normal index \d+ is out of bounds/
     #   run_patched(obj_file)
     # end

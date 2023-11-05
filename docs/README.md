@@ -6,13 +6,13 @@ The static site is served from GitHub Pages at: https://sul-dlss-labs.github.io/
 
 ## Set Up
 
-A report for all public 3D objects was run in Argo in October, 2023 and the resulting CSV was saved as `_data/items.csv`.  To fetch all the files for these objects using the published metadata you can run:
+A report for all public 3D objects was run in Argo in October, 2023 and the resulting CSV was saved as `_data/items.csv`.  To fetch all the files for these objects from Stacks using their published Cocina metadata you can run:
 
 ```shell
 $ rake fetch
 ```
 
-In order to convert the files from OBJ to GLB (binary GLTF) you can run:
+In order to convert the fetched OBJ files to GLB (binary GLTF) you can run:
 
 ```shell
 $ rake convert
@@ -28,6 +28,8 @@ and open your browser at http://localhost:4000/3d-eval/
 
 ## Publish
 
+The site is published using GitHub pages. There are a lot of files, so it can take a bit of time to clone and push the respository, and for changes to take effect on the live site.
+
 ```shell
 $ jekyll build
 $ git commit -a -m "latest content"
@@ -35,6 +37,21 @@ $ git push
 ```
 
 Then view the published site at http://sul-dlss-labs.github.io/3d-eval/
+
+## Develop
+
+The model-viewer JavaScript library is loaded from a CDN, but if you are going to change how the virtex3d viewer works in `js/virtex-viewer.js` you will need to install yarn, and then:
+
+```shell
+$ yarn install
+$ rake build
+```
+
+Otherwise changes to the jekyll site are easy to change while running:
+
+```shell
+$ jekyll serve --watch
+```
 
 [OBJ]: https://en.wikipedia.org/wiki/Wavefront_.obj_file
 [GLTF]: https://en.wikipedia.org/wiki/GlTF
