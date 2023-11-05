@@ -24,7 +24,7 @@ table .size, table .files {
 
 #summary {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -62,15 +62,16 @@ model-viewer {
 
 @media (max-width: 800px) {
   #viewers {
-    flex-flow: column wrap;
+    flex-flow: column;
   }
   #virtex-3d-viewer {
-    width: 90vw;
-    height: 400px;
+    min-width: 300px;
+    height: 300px;
+    border: thin solid red;
   }
   model-viewer {
-    width: 90vw;
-    height: 400px;
+    min-width: 300px;
+    height: 300px;
   }
 }
 
