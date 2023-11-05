@@ -21,9 +21,13 @@
   <a href="/3d-eval/assets/items/mh988zc9617/mh988zc9617_low.glb"><button>GLB</button></a>
 </section>
 <section id="viewers">
-  <div id="virtex-3d-viewer" data-file="/3d-eval/assets/items/mh988zc9617/mh988zc9617_low.obj"></div>
-  <div id="model-viewer">
-    <model-viewer auto-rotate camera-controls exposure="1.5" src="/3d-eval/assets/items/mh988zc9617/mh988zc9617_low.glb" ar-modes="webxr scene-viewer quick-look">
+  <div class="viewer-container">
+    vertex3d + obj<br>
+    <div id="virtex-3d-viewer" data-file="/3d-eval/assets/items/mh988zc9617/mh988zc9617_low.obj"></div>
+  </div>
+  <div class="viewer-container">
+    model-viewer + gltf<br>
+    <model-viewer auto-rotate camera-controls src="/3d-eval/assets/items/mh988zc9617/mh988zc9617_low.glb" ar-modes="webxr scene-viewer quick-look">
   </div>
 </section>
 

@@ -13,8 +13,12 @@ layout: default
   <a href="{{ page.druid | glb_url }}"><button>GLB</button></a>
 </section>
 <section id="viewers">
-  <div id="virtex-3d-viewer" data-file="{{ page.druid | obj_url }}"></div>
-  <div id="model-viewer">
-    <model-viewer auto-rotate camera-controls exposure="1.5" src="{{ page.druid | glb_url }}" ar-modes="webxr scene-viewer quick-look">
+  <div class="viewer-container">
+    vertex3d + obj<br>
+    <div id="virtex-3d-viewer" data-file="{{ page.druid | obj_url }}"></div>
+  </div>
+  <div class="viewer-container">
+    model-viewer + gltf<br>
+    <model-viewer auto-rotate camera-controls src="{{ page.druid | glb_url }}" ar-modes="webxr scene-viewer quick-look">
   </div>
 </section>
