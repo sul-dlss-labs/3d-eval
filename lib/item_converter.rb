@@ -16,28 +16,28 @@ class ItemConverter
   end
 
   def convert
+    # obj2gltf wants to run in the current workding directory where the .obj
+    # file is so that it can find the referenced material and texture files
     Dir.chdir("./assets/items/#{@druid}/") do
       obj_file = Dir.entries('.').find { |f| f.end_with?('.obj') }
       if obj_file
-        run_obj2gltf(obj_file)
+        glb_file = obj_file.sub(/.obj$/, '.glb')
+        run_obj2gltf(obj_file, glb_file)
       else
         @logger.error("#{@druid} missing .obj file")
       end
     end
   end
 
-  def run_obj2gltf(obj_file)
+  def run_obj2gltf(obj_file, glb_file, patch_obj: true)
     @logger.info("converting #{@druid} #{obj_file}")
-    glb_file = obj_file.sub(/.obj$/, '.glb')
     cmd = "../../../node_modules/.bin/obj2gltf -i #{obj_file} -o #{glb_file}"
 
     stdout, _stderr, status = Open3.capture3(cmd)
     @logger.error("#{@druid} gltf conversion error: #{stdout.strip}") unless status.exitstatus.zero?
 
-    # TODO: this doesn't work yet
-    # if stdout =~ /Normal index \d+ is out of bounds/
-    #   run_patched(obj_file)
-    # end
+    # if a Normal index is out of bounds error occurs try to patch the .obj file
+    run_patched(obj_file, glb_file) if patch_obj && stdout =~ /Normal index \d+ is out of bounds/
 
     # unfortunately obj2gltf exits 0 and writes to stdout when there are missing texture files
     log_warnings(stdout) unless stdout.empty?
@@ -65,14 +65,16 @@ class ItemConverter
     end.flatten
   end
 
-  # convert "nan" to "0" so obj2gltf doesn't complain
+  # Create a copy of the original .obj file, and edit "nan" to "0.0" in the obj
+  # file so obj2gltf doesn't complain. Then use that to convert to glb.
   # https://github.com/CesiumGS/obj2gltf/issues/243
-  def run_patched(obj_file)
+  def run_patched(obj_file, glb_file)
     obj = File.read(obj_file)
-    patched = obj.gsub(/vn -nan\(ind\) -nan\(ind\) -nan\(ind\)/m, 'vn -0(ind) -0(ind) -0(ind)')
+    patched = obj.gsub(/vn -nan\(ind\) -nan\(ind\) -nan\(ind\)/m, 'vn -0.0 -0.0 -0.0')
     patched_file = "patched-#{obj_file}"
     File.write(patched_file, patched)
-    @logger.info("running patched #{obj_file} to replace nan values with 0")
-    run_obj2gltf(patched_file)
+    @logger.info("running patched #{obj_file} to replace nan values with 0.0")
+    run_obj2gltf(patched_file, glb_file, patch_obj: false)
+    File.delete(patched_file)
   end
 end
